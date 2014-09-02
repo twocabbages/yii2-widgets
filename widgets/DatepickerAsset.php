@@ -19,6 +19,8 @@ class DatepickerAsset extends AssetBundle{
 
     public function init()
     {
+        $this->setSourcePath(__DIR__ . '/../lib/bootstrap-datepicker');
+
         $this->setupAssets('js', [
             'js/date-time/bootstrap-datepicker.min',
         ]);
